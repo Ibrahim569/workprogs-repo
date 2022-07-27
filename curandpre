@@ -1,0 +1,5 @@
+#Write a program to iterate the first 10 numbers and in each iteration, print the sum of the current and previous number.
+previous_num=0
+data=range(11)
+for index,value in enumerate(data):
+    print("Current Number {0} Previous Number  {0}  Sum:  {2}".format(index,value,index+value))
