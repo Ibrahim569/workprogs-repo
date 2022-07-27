@@ -1,0 +1,11 @@
+#Given two integer numbers return their product only if the product is equal to or lower than 1000, else return their sum.
+
+x = int(input("Enter the number:"))
+y= int (input("Enter the number:"))
+int z,s;
+z=x*y
+s=x+y
+if (z <=1000):
+    print(z)
+else:
+    print(s)
